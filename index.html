@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>List Panel Bot WA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Animasi warna-warni ke semua teks */
+    * {
+      animation: rainbow 3s infinite;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @keyframes rainbow {
+      0% { background-image: linear-gradient(45deg, red, orange); }
+      25% { background-image: linear-gradient(45deg, orange, yellow); }
+      50% { background-image: linear-gradient(45deg, yellow, lime); }
+      75% { background-image: linear-gradient(45deg, lime, cyan); }
+      100% { background-image: linear-gradient(45deg, cyan, red); }
+    }
+
+    .lights {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      background: #111;
+      width: 100%;
+    }
+
+    .light {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      animation: blink 1s infinite;
+    }
+
+    .light:nth-child(1) { background-color: red; animation-delay: 0s; }
+    .light:nth-child(2) { background-color: yellow; animation-delay: 0.3s; }
+    .light:nth-child(3) { background-color: lime; animation-delay: 0.6s; }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+
+    header {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 90%;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      margin: 10px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+
+    .title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background: #00ffd5;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00bfa5;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Lampu warna warni -->
+  <div class="lights">
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+  </div>
+
+  <!-- Musik -->
+  <audio id="bg-music" loop>
+    <source src="3982772433786458075-c.mp3" type="audio/mpeg">
+    Browser tidak mendukung audio.
+  </audio>
+
+  <header id="title">LIST PANEL BOT WA - ORDER OTOMATIS</header>
+
+  <div class="container" id="main-content">
+    <!-- Semua item -->
+    <div class="card"><div class="title">1K Kontak - 1GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%201K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">2K Kontak - 2GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%202K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">3K Kontak - 3GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%203K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">4K Kontak - 4GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%204K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">5K Kontak - 5GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%205K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">6K Kontak - 6GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%206K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">7K Kontak - 7GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%207K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">8K Kontak - 8GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%208K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">9K Kontak - 9GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%209K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">10K Kontak - 10GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%2010K%20Push" target="_blank">Order Sekarang</a></div>
+    <div class="card"><div class="title">11K Kontak - 11GB</div><a class="btn" href="https://wa.me/6281324982853?text=Order%2011K%20Push" target="_blank">Order Sekarang</a></div>
+  </div>
+
+  <footer>© 2025 Panel Bot WA - Created by Rev</footer>
+
+  <script>
+    window.onload = function() {
+      let nama = prompt("Masukkan nama Anda:");
+      if (nama && nama.trim() !== "") {
+        document.body.style.display = "flex";
+        document.getElementById("title").innerText += " - Selamat datang, " + nama + "!";
+        document.getElementById("bg-music").play().catch(() => {
+          alert("Klik layar untuk memulai musik.");
+        });
+      } else {
+        alert("Nama wajib diisi untuk masuk.");
+        location.reload();
+      }
+    };
+  </script>
+
+</body>
+</html>
